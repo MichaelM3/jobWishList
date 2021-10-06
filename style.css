@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#wishlist-container {
+    color: #673AB7;
+    width: 200px;
+    text-align: center;
+}
+
+#num-jobs {
+    color: grey;
+    font-size: small;
+}
+
+#job-container {
+    padding-top: 15px;
+}
+
+.card {
+    color: white;
+}
+
+.card-body {
+    float: left;
+}
+
+#delete-btn {
+    float: right;
+    opacity: 0;
+}
+
+#delete-btn:hover {
+    opacity: 1;
+}
